@@ -94,3 +94,29 @@ mymat
 for i in range(len(mymat)):
  mymat[i]=i
 mymat
+
+a=np.zeros((5,5))
+print(a,type(a))))# Generates array in 2 diemnsions with all elements 0
+
+np.linspace(1,15)# this will give equally spaced 50 numbers 
+# both the start and end is included 
+
+np.linspace(1,14,10,restep=True)# 10 equally spaced numbers between 1 and 15 (inclusive).
+
+np.eye(3)# creates a 3×3 identity matrix , ones on the diagonal and zeros elsewhere.
+
+arr1 = np.array([1, 2, 4, 5])
+1/arr1[1:] # Take the array arr1 but skip the first element (arr1[1:]).
+# then take reciprocal (1 divided by each element) of those values.
+
+np.random.rand() # generates a random float between 0 and 1 (uniform distribution).
+np.random.rand(10) # this will generate 10 random float between 0 and 1
+
+arr1=np.random.randn(50) # will create an array of 50 random numbers drawn from a standard normal distribution (mean = 0, standard deviation = 1)
+arr1
+np.mean(arr1)
+np.median(arr1)
+np.std(arr1)
+
+np.random.randint(1,100)# generates a random integer between 1 (inclusive) and 100 (exclusive)
+np.random.randint(1,100,10)
